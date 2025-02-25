@@ -1,0 +1,119 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Press+Start+2P&display=swap');
+
+body
+{
+  background-image: url(../media/yurii-ray-mint-white.gif);
+  background-size: 115%;
+  background-attachment: fixed;
+}
+
+.square
+{
+  height: 80px;
+  width: 80px;
+  background-color: white; 
+  border-width: 1px;
+  text-align: center;
+  font-family: "Press Start 2P", serif;
+  border-color: rgb(180, 20, 220);
+  border-radius: 5px;
+}
+
+.row
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.status
+{
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Press Start 2P", serif;
+  font-size: 10px;
+  color: white;
+  background: linear-gradient(to top left, #3366ff, #cc0099);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.title
+{
+  display: flex;
+  font-family: "Press Start 2P", serif;
+  font-size: 40px;
+  color: white;
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+.wrapper
+{
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  overflow: hidden;
+  background: linear-gradient(to top left, #3366ff, #cc0099);
+  border-radius: 25px;
+  padding: 1rem;
+  width: 30rem;
+  height: 3rem;
+  text-align: center;
+}
+
+.wrapper .title
+{
+  white-space: nowrap;
+  animation: title 5s linear infinite;
+  max-width: none;
+  text-align: center;
+}
+
+@keyframes title 
+{
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+.buttonContainer
+{
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  background-color: white;
+  border-color: rgb(186, 18, 172);
+  color: rgb(186, 18, 172);
+  margin-top: 3rem;
+  border-radius: 10px;
+}
+
+.butt{
+  height: 2rem;
+  width: 6rem;
+  border-radius: 10px;
+  border-color: rgb(186, 18, 172);
+  font-family: "Press Start 2P", serif ;
+  font-size: 10px;
+}
+
+.background
+{
+  background-color: #cc0099;
+}
+
+
